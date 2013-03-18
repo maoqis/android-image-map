@@ -1,4 +1,4 @@
-ackage com.lurencun.imagemap;
+package com.lurencun.imagemap;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -7,11 +7,11 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
+import com.lurencun.imagemap.internal.Bubble.OnBubbleClickListener;
+import com.lurencun.imagemap.internal.Bubble.OnShapeClickListener;
 import com.lurencun.imagemap.internal.BubbleDisplayer;
 import com.lurencun.imagemap.internal.ImageMap;
 import com.lurencun.imagemap.internal.Shape;
-import com.lurencun.imagemap.internal.Bubble.OnBubbleClickListener;
-import com.lurencun.imagemap.internal.Bubble.OnShapeClickListener;
 
 public class ImageMapLayout extends FrameLayout implements BubbleDisplayer{
 	
